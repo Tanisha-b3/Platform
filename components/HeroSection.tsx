@@ -53,7 +53,7 @@ export function HeroSection() {
         <motion.div initial={{ opacity: 0, scale: 0.85, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.5, delay: 1.0, ease: [0.23, 1, 0.32, 1] }} className="absolute" style={{ left: "690px", top: "525px", width: "400px", height: "90px" }}>
           <div className="flex items-center rounded-full bg-[#9C9BED] dark:bg-[#2b2d5b] shadow-2xl w-full h-full px-6 gap-4" style={{ transform: "rotate(4deg)" }}>
             <div className="w-[6px] h-12 rounded-full bg-[#E57D28] flex-shrink-0" />
-            <img src="https://i.pravatar.cc/100" alt="avatar" className="w-12 h-12 rounded-full flex-shrink-0" />
+            <img src="./image.png" alt="avatar" className="w-12 h-12 rounded-full flex-shrink-0" />
             <div className="min-w-0">
               <h3 className="text-[20px] font-semibold text-[#22234B] dark:text-white leading-tight">John Doe - Portal</h3>
               <p className="text-[13px] leading-5 text-[#64658d] dark:text-[#c8cbff]">Hey! Could you please review a<br />document for me?</p>
@@ -103,7 +103,7 @@ export function HeroSection() {
             </div>
             <div className="flex items-center rounded-full bg-[#9C9BED] dark:bg-[#2b2d5b] shadow-xl px-5 py-2.5 gap-3">
               <div className="w-[5px] h-10 rounded-full bg-[#E57D28] flex-shrink-0" />
-              <img src="https://i.pravatar.cc/100" alt="avatar" className="w-10 h-10 rounded-full flex-shrink-0" />
+              <img src="./image.png" alt="avatar" className="w-10 h-10 rounded-full flex-shrink-0" />
               <div className="min-w-0">
                 <p className="text-[15px] font-semibold text-[#22234B] dark:text-white">John Doe - Portal</p>
                 <p className="text-[11px] text-[#64658d] dark:text-[#c8cbff]">Hey! Could you please review a document for me?</p>
