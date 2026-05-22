@@ -58,7 +58,7 @@ export function HeroSection() {
             <div className="w-[6px] h-12 rounded-full bg-[#E57D28] flex-shrink-0" />
             <img src="./image.png" alt="avatar" className="w-12 h-12 rounded-full flex-shrink-0" />
             <div className="min-w-0">
-              <h3 className="text-[20px] font-semibold text-[#22234B] dark:text-white leading-tight">John Doe - Portal</h3>
+              <h3 className="text-[15px] font-semibold text-[#22234B] mt-2 dark:text-white leading-tight">John Doe - Portal</h3>
               <p className="text-[13px] leading-5 text-[#64658d] dark:text-[#c8cbff]">Hey! Could you please review a<br />document for me?</p>
               <span className="text-[11px] text-[#73749a] dark:text-[#9ea3ff]">MAT-2233 · 2 h ago</span>
             </div>
