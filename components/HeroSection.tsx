@@ -2,11 +2,14 @@
 
 import { motion } from "framer-motion";
 import {
-  CreditCard,
+  ReceiptText,
   Gavel,
   CheckSquare2,
   FileText,
+  ListChecks ,
 } from "lucide-react";
+
+import { faGavel } from '@fortawesome/free-solid-svg-icons';
 
 const stagger = {
   initial: { opacity: 0, y: 30 },
@@ -38,7 +41,7 @@ export function HeroSection() {
 
         <motion.div initial={{ opacity: 0, scale: 0.7, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.6, ease: [0.23, 1, 0.32, 1] }} className="absolute" style={{ left: "725px", top: "340px", width: "415px", height: "90px" }}>
           <div className="flex items-center rounded-full bg-[#3341FF] shadow-2xl w-full h-full" style={{ padding: "0 40px", transform: "rotate(10deg)" }}>
-            <CreditCard size={28} className="text-white flex-shrink-0" />
+            <ReceiptText size={28} className="text-white flex-shrink-0" />
             <span className="text-[34px] font-semibold text-white ml-4">Billing</span>
           </div>
         </motion.div>
@@ -64,7 +67,7 @@ export function HeroSection() {
 
         <motion.div initial={{ opacity: 0, scale: 0.7, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.5, delay: 1.2, ease: [0.23, 1, 0.32, 1] }} className="absolute" style={{ left: "500px", top: "655px", width: "390px", height: "90px" }}>
           <div className="flex items-center rounded-full bg-[#2D234D] shadow-2xl w-full h-full px-10 gap-4">
-            <CheckSquare2 size={28} color="#F48B2D" className="flex-shrink-0" />
+            <ListChecks size={28} color="#F48B2D" className="flex-shrink-0" />
             <span className="text-[34px] font-semibold text-[#F48B2D]">Tasks</span>
           </div>
         </motion.div>
@@ -94,7 +97,7 @@ export function HeroSection() {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <div className="flex items-center rounded-full bg-[#3341FF] shadow-xl px-6 py-3 gap-3">
-              <CreditCard size={22} className="text-white flex-shrink-0" />
+              <ReceiptText size={22} className="text-white flex-shrink-0" />
               <span className="text-[22px] md:text-[24px] font-semibold text-white">Billing</span>
             </div>
             <div className="flex items-center rounded-full bg-[#E57D28] shadow-xl px-6 py-3 gap-3">
@@ -111,7 +114,7 @@ export function HeroSection() {
               </div>
             </div>
             <div className="flex items-center rounded-full bg-[#2D234D] shadow-xl px-6 py-3 gap-3">
-              <CheckSquare2 size={22} color="#F48B2D" className="flex-shrink-0" />
+              <ListChecks size={22} color="#F48B2D" className="flex-shrink-0" />
               <span className="text-[22px] md:text-[24px] font-semibold text-[#F48B2D]">Tasks</span>
             </div>
             <div className="flex items-center rounded-full bg-[#2D234D] shadow-xl px-6 py-3 gap-3">
